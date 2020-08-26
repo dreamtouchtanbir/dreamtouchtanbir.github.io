@@ -1,0 +1,247 @@
+*{
+margin: 0;
+    padding: 0;
+    outline: none;
+/*    overflow-x: hidden;*/
+}
+body{
+/*        background: #f0efef;*/
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    transition: all linear .4s;
+}
+a:hover{
+    text-decoration: none;
+}
+p,h1,h2,h3,h4,h5,h6,ul,li{margin: 0; padding: 0;}
+ul, li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6, a{
+    font-family: 'Raleway', sans-serif;
+}
+p, li{
+    font-family: 'Open Sans', sans-serif;
+}
+.main-bg{
+    background: #28304e;
+    color: #fff;
+}
+.navbar-brand{
+    display: inline-block;
+    width: 20%;
+}
+.navbar-brand img{
+    width: 100%
+}
+header .navbar-nav{}
+header .navbar-nav .nav-item{}
+header .navbar-nav .nav-item .nav-link{ text-transform: uppercase; font-weight: 600}
+
+/*Bennar*/
+#bennar {
+    padding: 70px 15px;
+    background: #6a81ff;
+    color: #fff;
+    
+}
+#bennar .bennar-content{}
+#bennar .bennar-content h1{
+    font-size: 4vw;
+    padding-bottom: 10px;
+}
+#bennar .bennar-content p{
+    padding-bottom: 10px;
+    line-height: 24px;
+}
+#bennar .bennar-content a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+.site-btn{
+    display: inline-block;
+    background: #ff0058;
+    padding: 10px;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+.site-btn:hover{
+    background: blue;
+    color: #fff;
+}
+/*Bennar end*/
+/*About*/
+.title{
+    padding-bottom: 50px;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: 'roboto' sans-serif;
+    display: inline-block;
+    position: relative;
+    
+}
+.title:before{
+/*    content: '';*/
+    position: absolute;
+    left: 0;
+    bottom: 45px;
+    width: 100%;
+    height: 4px;
+    background: #5e80ff;
+}
+#about{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#about .about-content p{
+    line-height: 28px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+#about .about-content a{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*About End*/
+/*confidence */
+#confidence{
+  padding-left: 15px;
+    padding-right: 15px;
+}
+#confidence .title:before{
+    display: none;
+}
+.confidence-img img{
+    object-fit: cover;
+    transform: scale(1.1);
+}
+/*confidence End*/
+/*focus*/
+#focus{padding-left: 15px; padding-right: 15px;}
+#focus .focus-content{}
+#focus .focus-content p{padding-bottom: 20px}
+#focus .focus-content input{width: 40%; border-color: dodgerblue; border: 1px solid dodgerblue; padding: 10px; border-radius: 3px 0px 25px 0px;}
+#focus .focus-content button{ border: none; background: orange; color: #fff; border-radius: 25px 0; padding: 11px; margin-left: -80px}
+#focus .improvment{}
+#focus .improvment h2{text-align: center; padding-bottom: 20px; font-size: 50px; font-weight: 800;}
+#focus .improvment h6{
+    font-size: 24px;
+    text-align: center;
+}
+/*focus End*/
+/*get-start*/
+#get-start{
+    background: url(../img/rectangle-2.png);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#get-start .container{
+    position: relative;
+    height: 100%;
+}
+#get-start .bg-gs{
+    background: url(../img/rectangle-1.png);
+    position: absolute;
+    width: 100%;
+    
+    height: 110%;
+    left: 0;
+    top: -5%;
+    
+}
+#get-start .bg-gs h5{
+    color: #fff;
+    padding-top: 50px;
+    font-size: 2vw;
+    margin-bottom: 20px;
+}
+#get-start .bg-gs a{
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*get-start End*/
+/*Track*/
+#track .track-content{padding-top: 70px;}
+#track .track-content h6{color: orchid}
+#track .track-content p{padding-bottom: 30px;}
+.service .wiz{
+    box-shadow: inset 0px 0px 3px 1px #ddd;
+    background: #fafafa;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 200px;
+}
+.service .wiz img{
+    padding-top: 50px;
+}
+/*Track End*/
+/*Application*/
+#apm .apm-content{
+    padding-top: 150px;
+}
+#apm .apm-content a{
+    margin-top: 30px;
+}
+/*Application End*/
+/*Clint*/
+#clint{}
+#clint .clint-box{padding: 20px; text-align: center; box-shadow: inset 0px 0px 3px 1px #ddd;
+    background: #fafafa;}
+#clint .clint-box .img-box{
+    width: 150px;
+    height: 150px;
+    background: #ddd;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 8px solid #efefef;
+    overflow: hidden;
+    object-fit: cover;
+}
+#clint .clint-box .img-box img{
+    object-fit: cover;
+    
+}
+#clint .clint-box h5{font-weight: 700;}
+#clint .clint-box strong{font-size: 14px;}
+#clint .clint-box ul{margin: auto; display: inline-block; width: 23%}
+#clint .clint-box ul li {}
+#clint .clint-box ul li i{
+    color: orange;
+}
+/*Clint End*/
+/*Footer*/
+#footer{
+background: #1c1d21;
+    color: #fff;
+}
+#footer .logo{
+    width: 80%;
+}
+#footer .wiz p{
+    padding: 5px 0;
+    font-weight: 500;
+}
+#footer .wiz .title{
+    padding-bottom: 10px;
+}
+#footer .wiz ul li{}
+#footer .wiz ul li a{ 
+color: #fff;
+    font-weight: 500;
+}
+.copyright{
+    line-height: 50px;
+    border-top: 1px solid #333;
+}
+/*Footer End*/
